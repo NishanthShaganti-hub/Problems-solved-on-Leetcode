@@ -4,11 +4,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0053-maximum-subarray) |
 | [0189-rotate-array](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0189-rotate-array) |
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0189-rotate-array) |
 ## Two Pointers
 |  |
@@ -22,4 +24,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0053-maximum-subarray) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
