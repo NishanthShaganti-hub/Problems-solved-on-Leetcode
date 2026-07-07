@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0189-rotate-array) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Two Pointers
 |  |
 | ------- |
