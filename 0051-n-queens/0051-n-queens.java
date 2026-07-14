@@ -1,65 +1,45 @@
 class Solution {
-
-    List<List<String>> result = new ArrayList<>();
-
     public List<List<String>> solveNQueens(int n) {
-
+        List<List<String>> r = new ArrayList<>();
         char[][] board = new char[n][n];
 
-        // Fill board with '.'
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             Arrays.fill(board[i], '.');
-        }
 
-        solve(board, 0, n);
+        dfs(n, 0, new boolean[n], new boolean[2 * n - 1],
+                new boolean[2 * n - 1], board, r);
 
-        return result;
+        return r;
     }
 
-    void solve(char[][] board, int col, int n) {
+    public void dfs(int n, int i, boolean[] col, boolean[] d1,
+                    boolean[] d2, char[][] board, List<List<String>> r) {
 
-        if (col == n) {
-            List<String> temp = new ArrayList<>();
-
-            for (int i = 0; i < n; i++) {
-                temp.add(new String(board[i]));
-            }
-
-            result.add(temp);
+        if (i == n) {
+            r.add(construct(board));
             return;
         }
 
-        for (int row = 0; row < n; row++) {
+        for (int j = 0; j < n; j++) {
+            if (col[j] || d1[i + j] || d2[n - 1 + i - j])
+                continue;
 
-            if (isSafe(board, row, col, n)) {
+            board[i][j] = 'Q';
+            col[j] = d1[i + j] = d2[n - 1 + i - j] = true;
 
-                board[row][col] = 'Q';
+            dfs(n, i + 1, col, d1, d2, board, r);
 
-                solve(board, col + 1, n);
-
-                // Backtrack
-                board[row][col] = '.';
-            }
+            board[i][j] = '.';
+            col[j] = d1[i + j] = d2[n - 1 + i - j] = false;
         }
     }
 
-    boolean isSafe(char[][] board, int row, int col, int n) {
+    public List<String> construct(char[][] board) {
+        List<String> l = new ArrayList<>();
 
-        // Check left side
-        for (int i = 0; i < col; i++)
-            if (board[row][i] == 'Q')
-                return false;
+        for (int i = 0; i < board.length; i++)
+            l.add(String.valueOf(board[i]));
 
-        // Check upper-left diagonal
-        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--)
-            if (board[i][j] == 'Q')
-                return false;
-
-        // Check lower-left diagonal
-        for (int i = row, j = col; i < n && j >= 0; i++, j--)
-            if (board[i][j] == 'Q')
-                return false;
-
-        return true;
+        return l;
     }
 }
