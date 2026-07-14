@@ -1,17 +1,15 @@
 class Solution {
-    List<List<Integer>> ans=new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
-        backtracking(0,new ArrayList<>(),nums);
-            return ans;
-        }
-    public  void backtracking(int index,List<Integer>subset,int []nums){
-        if(index==nums.length){
-            ans.add(new ArrayList<>(subset));
-            return ;
-        }
-        subset.add(nums[index]);
-        backtracking(index+1,subset,nums);
-        subset.remove(subset.size()-1);
-        backtracking(index+1,subset,nums);
+     List<List<Integer>> list=new ArrayList<>();
+     dfs(list,new ArrayList<>(),nums,0);
+     return list;   
     }
+    public void dfs(List<List<Integer>> list,List<Integer> slist,int [] nums,int start){
+        list.add(new ArrayList<>(slist));
+        for(int i= start;i<nums.length;i++){
+            slist.add(nums[i]);
+            dfs(list,slist,nums,i+1);
+            slist.remove(slist.size()-1);
+        }
     }
+}
