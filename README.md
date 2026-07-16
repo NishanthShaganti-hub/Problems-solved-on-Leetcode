@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0101-symmetric-tree) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0200-number-of-islands](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0733-flood-fill) |
 | [1382-balance-a-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/1382-balance-a-binary-search-tree) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0101-symmetric-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
@@ -152,5 +154,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0101-symmetric-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/NishanthShaganti-hub/Problems-solved-on-Leetcode/tree/master/1382-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
